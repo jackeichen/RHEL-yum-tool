@@ -1,6 +1,5 @@
 #!/bin/bash
 #This is for RHEL 7.2, that cannot use yum tool. Modify freely if not RHEL 7.2
-#Created by Gaozh.
 #given is 163 source.
 
 echo "Environment checking..."

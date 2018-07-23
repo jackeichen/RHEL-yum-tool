@@ -46,7 +46,7 @@ fi
 #create CentOS .repo file
 cp -r /etc/yum.repos.d /etc/yum.repos.d.bak
 rm -rf /etc/yum.repos.d/*.repo
-cp ./CentOS-Base.repo /etc/yum.repos.d/
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo
 
 # make cache
 yum clean all

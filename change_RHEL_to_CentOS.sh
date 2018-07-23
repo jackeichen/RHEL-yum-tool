@@ -36,7 +36,7 @@ then
 fi
 
 #install CentOS yum tool
-rpm -ivh ./yum-*.rpm
+rpm -ivh ./rpm_package/yum-*.rpm
 if [ $? -ne 0 ]
 then
   echo "fail to install yum."
